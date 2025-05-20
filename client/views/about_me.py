@@ -6,7 +6,7 @@ from PIL import Image
 col1, col2 = st.columns(2, gap='small', vertical_alignment="center")
 
 with col1:
-    st.image("https://raw.githubusercontent.com/NickJordan-BE/PortfolioWebsite/blob/main/client/static/Port.jpg", width=400)
+    st.image("https://raw.githubusercontent.com/NickJordan-BE/PortfolioWebsite/main/client/static/Port.jpg", width=400)
 with col2:
     st.title("Nicholas Jordan", anchor=False)
     st.write(
