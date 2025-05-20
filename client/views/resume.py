@@ -3,7 +3,7 @@ import base64
 
 st.title("My Resume")
 
-with open("https://github.com/NickJordan-BE/PortfolioWebsite/blob/main/client/assets/NickJordanResumeML.pdf", "rb") as f:
+with open("./static/NickJordanResumeML.pdf", "rb") as f:
     base64_pdf = base64.b64encode(f.read()).decode('utf-8')
 
     # Embedding PDF in HTML
