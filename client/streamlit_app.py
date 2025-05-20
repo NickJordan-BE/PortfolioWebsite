@@ -6,21 +6,21 @@ about_page = st.Page(
     "./views/about_me.py",
     title="About Me",
     icon=":material/account_circle:",
-    url_path="home",
+    url_path="/home",
     default=True
 )
 
 projects_page = st.Page(
     "./views/projects.py",
     title="Projects",
-    url_path="projects",
+    url_path="/projects",
     icon=":material/play_arrow:"
 )
 
 resume_page = st.Page(
     "./views/resume.py",
     title="My Resume",
-    url_path="resume",
+    url_path="/resume",
     icon=":material/info:"
 )
 
