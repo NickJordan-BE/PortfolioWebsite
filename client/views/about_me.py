@@ -1,9 +1,5 @@
 import streamlit as st
-from components.form import contact_form
 
-@st.dialog("Contact Me")
-def show_contact_form():
-    contact_form()
 
 
 col1, col2 = st.columns(2, gap='small', vertical_alignment="center")
@@ -18,8 +14,7 @@ with col2:
         "Backend Development, and Data Science."
     )
 
-    if st.button("Contact Me @ NikJordan525@gmail.com"):
-        show_contact_form()
+    st.write("Contact Me @ NikJordan525@gmail.com")
 
 st.subheader("-- About Me -- ")
 st.write("My love for programming began in 4th grade when I was" \
