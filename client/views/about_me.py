@@ -1,11 +1,13 @@
 import streamlit as st
+from PIL import Image
 
 
 
 col1, col2 = st.columns(2, gap='small', vertical_alignment="center")
 
 with col1:
-    st.image("https://nickjordan.streamlit.app/static/Port.jpg", width=400)
+    image = Image.open("https://nickjordan.streamlit.app/static/Port.jpg")
+    st.image(image, width=400)
 with col2:
     st.title("Nicholas Jordan", anchor=False)
     st.write(
