@@ -35,11 +35,11 @@ st.sidebar.markdown(f"""
         </a>
                 <a href="https://www.github.com/NickJordan-BE" target="_blank">
             <img src="https://img.icons8.com/?size=100&id=u9R54eMKS8fw&format=png&color=000000"
-                 alt="LinkedIn" width="48"/>
+                 alt="GitHub" width="48"/>
         </a>
         <a href="NikJordan525@gmail.com" target="_blank">
             <img src="https://img.icons8.com/?size=100&id=P7UIlhbpWzZm&format=png&color=000000"
-                 alt="LinkedIn" width="48" />
+                 alt="Gmail" width="48" />
         </a>
                     </div>
     """, unsafe_allow_html=True)
