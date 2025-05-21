@@ -39,8 +39,8 @@ st.write("As mentioned before I love to learn! My two favorite hobbies of all ti
 col3, col4 = st.columns(2, gap="medium", vertical_alignment="center")
 with col3:
     st.subheader("-- Projects -- ")
-    st.link_button(label="Projects Page", url="http://localhost:8501/projects") 
+    st.link_button(label="Projects Page", url="https://nickjordan.streamlit.app/projects") 
 
 with col4:
     st.subheader("-- Resume --")
-    st.link_button(label="Resume", url="http://localhost:8501/resume")
+    st.link_button(label="Resume", url="https://nickjordan.streamlit.app/resume")
