@@ -24,7 +24,7 @@ st.write("My love for programming began in 4th grade when I was" \
 "I am currently pursuing my Bachelors of Science in Computer Science"
 " and Systems at The University Of Washington -- Tacoma with the intention" \
 " to get my Master's Degree in Deep Learning/Machine Learning and eventually my PhD "
-"with a similar thesis. I have a strong thirst for knowledge and a passion for learning." \
+"with in Computer Vision/Deep Learning. I have a strong thirst for knowledge and a passion for learning." \
 " I've worked full time since I was in high-school balancing multiple jobs, side-projects, " \
 "extracurricular activities, research, and maintaining a GPA of 3.98.")
 
