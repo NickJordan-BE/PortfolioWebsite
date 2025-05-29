@@ -20,8 +20,8 @@ with tab1:
                 * Prototype built within 6 hours at the South Puget Sounds largest Hackathon ever with over 15 teams and
                  80 people present placing 2nd overall in the entire competition. 
                 * Prototype CNN achieving 92\\% accuracy in binary classification for pneumonia patients chest x-rays.
-                * Training and optimizing model further to classify 14 different abnormalities among chest x-rays with a 95% accuracy.
-                * Cleaning, filtering, and augmenting 112k image dataset in batch sizes of 256 to train and test model.
+                * Trained and optimize ResNetv2 model further to classify 4 different respiratory diseases among chest x-rays with a 95% accuracy.
+                * Cleaned, filtered, and augmented 10k image dataset in batch sizes of 32 to train and test model sources from multiple databases.
                 * Utilizing Google Colab hardware to train and test model.
                 ''')
 
